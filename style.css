@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #141414;
+    color: #fff;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    position: fixed;
+    background: #141414;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    outline: none;
+}
+
+.options01{
+    display: flex;
+    gap:30px;
+    font-size: 20px;
+}
+
+.login-btn{
+    background-image: linear-gradient(to right, #0072BC, #0447B8);
+    width: 9vw;
+    height: 4vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+
+.register-btn{
+    background: #EBEDF0;
+    width: 9vw;
+    height: 4vh;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.main{
+    color: #fff;
+}
+
+.textbox{
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: 900;
+    font-size: 50px;
+}
+#subtitle{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.bannerphoto{
+    
+}
